@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
     Scanner entradas = new Scanner(System.in);
-        double saldo= 237.48;
+        double saldo_= 237.48;
 
         System.out.println("Por favor, digite o número da Agência !");
         int numero_agencia = entradas.nextInt();
@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Digite o seu nome !");
         String nome = entradas.next();
 
-        System.out.println("Olá " +nome+ ",obrigado por criar uma conta em nosso banco, sua agência é " +agencia+ ",  conta "+numero_agencia+ " e seu saldo  " +saldo+" já está disponível para saque");
+        System.out.println("Olá " +nome+ ",obrigado por criar uma conta em nosso banco, sua agência é " +agencia+ ",  conta "+numero_agencia+ " e seu saldo  " +saldo_+" já está disponível para saque");
 
 
 
